@@ -35,7 +35,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: /data/nginx/pv2
+    path: /data/nginx/pv
 ---
 # ------------------------------
 # 2. PersistentVolumeClaims
